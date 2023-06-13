@@ -3,6 +3,7 @@ module jms {
     requires javafx.controls;
     requires java.naming;
     requires javax.jms.api;
+    requires java.desktop;
     exports org.example.p2p to java.naming, javafx.controls, javafx.graphics, javax.jms.api;
     exports org.example.publisherSubscriber to java.naming, javafx.controls, javafx.graphics, javax.jms.api;
 }
